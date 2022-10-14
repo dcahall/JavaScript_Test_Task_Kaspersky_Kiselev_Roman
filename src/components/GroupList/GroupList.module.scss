@@ -1,0 +1,18 @@
+.groupBlock {
+	padding: 30px;
+	text-align: center;
+	overflow: scroll;
+	background-color: #3d5a80;
+	border-radius: 4px;
+	box-shadow: 15px 15px 30px rgba(0, 0, 0, .15);
+	height: 90vh;
+
+	position: fixed;
+	width: 300px;
+	top: 5vh;
+	left: 30px;
+
+	h2 {
+		margin-bottom: 25px;
+	}
+}

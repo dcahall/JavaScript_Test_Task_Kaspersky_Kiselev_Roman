@@ -1,0 +1,28 @@
+.searchPanel {
+	background-color: #3d5a80;
+	border-radius: 4px;
+	box-shadow: 15px 15px 30px rgba(0, 0, 0, .15);
+	color: #fff;
+	margin-bottom: 20px;
+	position: relative;
+
+	&__clear {
+		position: absolute;
+		width: 25px;
+		height: 25px;
+		right: 10px;
+		top: 6px;
+		cursor: pointer;
+	}
+
+	&__searchImg {
+		position: absolute;
+		top: 11px;
+		left: 15px;
+	}
+
+	input {
+		padding-left: 40px;
+	}
+
+}

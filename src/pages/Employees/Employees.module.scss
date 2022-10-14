@@ -1,0 +1,18 @@
+.employees {
+	height: 100%;
+	width: 100%;
+	color: #ffffff;
+	position: relative;
+
+	&__menu {
+		min-width: 1000px;
+		margin: 5vh 390px;
+		border-radius: 4px;
+	}
+
+	&__search {
+		background-color: #3d5a80;
+		border-radius: 4px;
+		padding: 25px;
+	}
+}

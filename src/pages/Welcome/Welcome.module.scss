@@ -1,0 +1,41 @@
+.welcome__section {
+	height: 100vh;
+	max-width: 100%;
+ 	padding: 0 2rem;
+	background: linear-gradient( 90deg,
+		rgb(86, 110, 143) 0%,
+		#3d5a80) 100%;
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #ffffff;
+	text-align: center;
+	h1, p {
+		margin: 0 0;
+	}
+	p {
+		font-style: italic;
+		font-size: 3rem;
+		font-weight: 200;
+	}
+	h1 {
+		font-weight: 700;
+		font-size: 6rem;
+	}
+	h2 {
+		padding-top: 100px;
+		color: #ffffff;
+		font-weight: 700;
+		font-size: 3rem;
+	}
+	
+	h2 i {
+		transition: transform 0.3s ease-out;
+	}
+	
+	h2:hover i {
+		transform: translateX(12px);
+	}
+}
