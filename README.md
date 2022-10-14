@@ -23,7 +23,7 @@ npm i
 npx json-server --watch data/db.json --port 8000
 ```
 
-4. Run the module builder in other:
+4. Run the module builder in other terminal:
 ``` sh
 npm start
 ```
