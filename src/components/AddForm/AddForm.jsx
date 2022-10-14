@@ -70,7 +70,7 @@ class AddForm extends React.Component {
 
 	onSubmitGroup = (e) => {
 		e.preventDefault();
-		const data = new dataService;
+		const data = new dataService();
 		const { setGroups, groups } = this.props;
 		const newGroup = {name: this.state.group, id: Date.now()}
 

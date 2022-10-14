@@ -6,7 +6,7 @@ import { dataService } from '../../services/dataService';
 
 const Group = ({ groupList, setUsers, activeGroup, setActiveGroup}) => {
 	const { groupBlock } = styles;
-	const	data = new dataService;
+	const	data = new dataService();
 
 	const onActiveGroup = ({ name }) => {
 

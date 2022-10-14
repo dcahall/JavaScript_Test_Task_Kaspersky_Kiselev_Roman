@@ -15,7 +15,7 @@ const EmployeesList = (
 	const { employees__list } = styles;
 	const filtredUsers = users.filter(item => item.name.toLowerCase().includes(searchValue.toLowerCase()));
 	const sortedUsers = sortUser(filtredUsers)
-	const data = new dataService;
+	const data = new dataService();
 
 	const deleteEmployee = (id, team) => {
 		try {

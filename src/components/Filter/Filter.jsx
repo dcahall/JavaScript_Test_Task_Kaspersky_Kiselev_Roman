@@ -6,14 +6,14 @@ const Filter = ({ setSortType }) => {
 	const [activeFilter, setActiveFilter] = React.useState('');
 	
 	const onActiveGroup = ({ name, faImage }) => {
-		if (`${name} ${faImage}` == activeFilter) {
+		if (`${name} ${faImage}` === activeFilter) {
 			setActiveFilter('');
 			return ;
 		}
 
 		setActiveFilter(`${name} ${faImage}`);
 
-		if (faImage == "fas fa-angle-up") {
+		if (faImage === "fas fa-angle-up") {
 			setSortType("ascending");
 		} else {
 			setSortType("descending");

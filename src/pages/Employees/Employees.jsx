@@ -99,7 +99,6 @@ const Employees = () => {
 						setUsers={setUsers}
 						activeGroup={activeGroup}
 						setGroups={setGroups}
-						groups={groups}
 					/>
 				</div>
 			</div>
