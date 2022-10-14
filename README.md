@@ -1,5 +1,5 @@
 # JavaScript_Test_Task_Kaspersky_Kiselev_Roman
-Employee lisr, where the following options are available: 
+Employee list, where the following options are available: 
 - search by product name
 - add users
 - add group
