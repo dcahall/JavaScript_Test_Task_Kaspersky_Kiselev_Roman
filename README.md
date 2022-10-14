@@ -1,5 +1,6 @@
 # JavaScript_Test_Task_Kaspersky_Kiselev_Roman
 A react application that displays a list of users
+
 **Options**
 - search by username;
 - add/delete users
