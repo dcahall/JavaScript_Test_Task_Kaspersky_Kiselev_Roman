@@ -1,11 +1,11 @@
 # JavaScript_Test_Task_Kaspersky_Kiselev_Roman
-Employee list, where the following options are available: 
-- search by product name
-- add users
-- add group
-- delete users
-- delete groups
-- sort users
+A react application that displays a list of users
+**Options**
+- search by username;
+- add/delete users
+- add/delete groups
+- change routes: home/users;
+- sort users alphabetically in up/down orders;
 
 The json-server was used as a server to store the data
 ____
